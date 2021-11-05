@@ -1,0 +1,110 @@
+
+* {
+  font-family: Slabo 27px;
+  margin: 0em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  background-image: url("./img/dairy-ranch-slide-background.jpg");
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  border-bottom: 2px solid black;
+  display: inline;
+}
+
+header nav {
+  display: inline;
+}
+header nav ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+header nav ul a {
+  margin-right: 100px;
+}
+
+header nav ul a li {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  color:red;
+  font-weight: 1000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left:30px;
+}
+
+h1 {
+  color:rgb(75, 75, 83);
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section {
+  margin-top: 0px;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-bottom: 100px;
+  min-height: calc(100vh - 50px);
+}
+
+#article-list article {
+  background-color: lightblue;
+  border: 0.5px solid ;
+  font-weight: 600;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 1em 2em;
+}
+
+
+#article-list a {
+  text-decoration: none;
+  text-align: center;
+  font-family: cursive;
+  font-size: larger;
+}
+
+#article-list a h3 {
+  color:rgb(112, 172, 245);
+  margin-bottom: 2em;
+}
+
+#article-list p {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+  letter-spacing: 3px;
+  line-height: 1.8
+}
+
+footer {
+  background-color: gray;
+  color: rgb(12, 12, 12);
+  text-align: center;
+  width: 100%;
+  height: 3em;
+  padding: 0.5em;
+  position: static;
+}

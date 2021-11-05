@@ -1,0 +1,21 @@
+#makanan {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  background-image: url("./img/foods.jpg");
+}
+
+
+.konten{
+  text-align: center;
+  margin: 200px 500px;
+  font-size: 150%;
+}
+
+#dashboard{
+  text-align: center;
+  margin: auto;
+  background-color: burlywood;
+}
